@@ -34,6 +34,6 @@ Thumbs.db
 think/
 
 # SSH host keys (generated at runtime)
-ssh_host_*
+.ssh/
 
 agents.md

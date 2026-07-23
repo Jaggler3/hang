@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"hang.sh/internal/server"
+	"hang.sh/internal/ui"
 )
 
 func main() {
@@ -13,5 +16,15 @@ func main() {
 }
 
 func run() error {
+	srv, err := server.New(ui.TeaHandler)
+	if err != nil {
+		return err
+	}
+
+	err = srv.ListenAndServe()
+	if err != nil {
+		return err
+	}
+
 	return nil
 }
