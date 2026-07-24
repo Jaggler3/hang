@@ -1,7 +1,7 @@
 package ui
 
 import (
-	tea "github.com/charmbracelet/bubbletea"
+	tea "charm.land/bubbletea/v2"
 	"github.com/charmbracelet/ssh"
 )
 
@@ -16,13 +16,15 @@ func (m model) Init() tea.Cmd {
 	return nil
 }
 
-func (m model) View() string {
-	return "hello world!"
+func (m model) View() tea.View {
+	view := tea.NewView("hello world!")
+	view.AltScreen = true
+	return view
 }
 
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
-	case tea.KeyMsg:
+	case tea.KeyPressMsg:
 		switch msg.String() {
 		case "ctrl+c", "q":
 			return m, tea.Quit
