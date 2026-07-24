@@ -6,12 +6,9 @@ import (
 	"charm.land/wish/v2/bubbletea"
 	"charm.land/wish/v2/logging"
 	"github.com/charmbracelet/ssh"
+	"hang.sh/internal/data"
 	"hang.sh/internal/player"
 )
-
-type contextKey string
-
-const playerKey contextKey = "player"
 
 // Initialize a wish server with configurations
 func New(handler bubbletea.Handler) (*ssh.Server, error) {
@@ -33,6 +30,6 @@ func New(handler bubbletea.Handler) (*ssh.Server, error) {
 
 func keyAuthHandler(ctx ssh.Context, key ssh.PublicKey) bool {
 	// use 'key' in the future to persist player data in db
-	ctx.SetValue(playerKey, player.NewPlayer())
+	ctx.SetValue(data.PlayerKey, player.NewPlayer())
 	return true
 }

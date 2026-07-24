@@ -12,6 +12,7 @@ const (
 type Player struct {
 	X, Y      int
 	Direction Direction
+	Name      string
 }
 
 func NewPlayer() *Player {
@@ -19,5 +20,6 @@ func NewPlayer() *Player {
 		X:         0,
 		Y:         0,
 		Direction: Down,
+		Name:      "Martin",
 	}
 }

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
+	render "hang.sh/internal/render"
 	"hang.sh/internal/server"
-	"hang.sh/internal/ui"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 }
 
 func run() error {
-	srv, err := server.New(ui.TeaHandler)
+	srv, err := server.New(render.TeaHandler)
 	if err != nil {
 		return err
 	}
