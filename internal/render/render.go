@@ -1,4 +1,4 @@
-package ui
+package render
 
 import (
 	"bytes"
@@ -8,16 +8,18 @@ import (
 	"github.com/charmbracelet/ssh"
 	"hang.sh/internal/data"
 	"hang.sh/internal/player"
+	"hang.sh/internal/shared"
+	"hang.sh/internal/world"
 )
 
-type model struct {
+type GameModel struct {
 	width, height int
 	sized         bool
 	player        *player.Player
 	buffer        [][]byte
 }
 
-func (m model) Init() tea.Cmd {
+func (m GameModel) Init() tea.Cmd {
 	return nil
 }
 
@@ -26,7 +28,7 @@ func setupView(view *tea.View) {
 	view.MouseMode = tea.MouseModeAllMotion
 }
 
-func (m model) View() tea.View {
+func (m GameModel) View() tea.View {
 	if !m.sized {
 		// first frame for getting screen size
 		view := tea.NewView("")
@@ -49,19 +51,17 @@ func (m model) View() tea.View {
 
 	// WORLD
 	worldOffsetX, worldOffsetY := m.width/2, m.height/2
-	playerElement := [][]byte{
-		[]byte(" o "),
-		[]byte("/|\\"),
-		[]byte(" n "),
+	worldElements := world.Elements()
+	for _, element := range worldElements {
+		m.renderElement(element, worldOffsetX, worldOffsetY)
 	}
-	m.renderElement(playerElement, worldOffsetX, worldOffsetY, 1, 1, false)
 
 	view := tea.NewView(m.formatBuffer())
 	setupView(&view)
 	return view
 }
 
-func (m model) formatBuffer() string {
+func (m GameModel) formatBuffer() string {
 	lines := make([]string, len(m.buffer))
 	for i, row := range m.buffer {
 		lines[i] = string(row)
@@ -70,7 +70,7 @@ func (m model) formatBuffer() string {
 	return strings.Join(lines, "\n")
 }
 
-func (m *model) renderCell(fill byte, position_x int, position_y int, erase bool) {
+func (m *GameModel) renderCell(fill byte, position_x int, position_y int, transparent bool) {
 	size_y := len(m.buffer)
 	if size_y == 0 || position_y < 0 || position_y > size_y {
 		return
@@ -79,29 +79,29 @@ func (m *model) renderCell(fill byte, position_x int, position_y int, erase bool
 	if size_x == 0 || position_x < 0 || position_x > size_x {
 		return
 	}
-	if fill == ' ' && !erase {
+	if fill == ' ' && transparent {
 		return
 	}
 	m.buffer[position_y][position_x] = fill
 }
 
-func (m *model) renderElement(fill [][]byte, position_x int, position_y int, origin_x int, origin_y int, erase bool) {
-	size_y := len(fill)
+func (m *GameModel) renderElement(renderable shared.Renderable, offsetX int, offsetY int) {
+	size_y := len(renderable.Buffer)
 	if size_y == 0 {
 		return
 	}
-	size_x := len(fill[0])
+	size_x := len(renderable.Buffer[0])
 	if size_x == 0 {
 		return
 	}
 	for y := range size_y {
 		for x := range size_x {
-			m.renderCell(fill[y][x], position_x+x-origin_x, position_y+y-origin_y, erase)
+			m.renderCell(renderable.Buffer[y][x], offsetX+renderable.X+x-renderable.OriginX, offsetY+renderable.Y+y-renderable.OriginY, renderable.Transparent)
 		}
 	}
 }
 
-func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+func (m GameModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.KeyPressMsg:
 		switch msg.String() {
@@ -119,5 +119,5 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 func TeaHandler(sess ssh.Session) (tea.Model, []tea.ProgramOption) {
 	ctx := sess.Context()
 	p := ctx.Value(data.PlayerKey).(*player.Player)
-	return model{player: p}, []tea.ProgramOption{}
+	return GameModel{player: p}, []tea.ProgramOption{}
 }
