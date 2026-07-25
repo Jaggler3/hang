@@ -1,0 +1,1561 @@
+{
+  "width": 24,
+  "height": 8,
+  "cells": [
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "n",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "c",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "|",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "|",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "u",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "3",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "|",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "|",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": ",",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "-",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "\\",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "/",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "\\",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "_",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    [
+      {
+        "char": "/",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": " ",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "char": "\\",
+        "fg": "#ffffff",
+        "bg": "",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ]
+  ],
+  "bg_color": "",
+  "name": "untitled",
+  "lattice_on": true
+}
