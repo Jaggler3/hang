@@ -7,17 +7,17 @@ import (
 	"charm.land/wish/v2/logging"
 	"github.com/charmbracelet/ssh"
 	"hang.sh/internal/data"
-	"hang.sh/internal/player"
+	"hang.sh/internal/entity"
+	"hang.sh/internal/world"
 )
 
-// Initialize a wish server with configurations
 func New(handler bubbletea.Handler) (*ssh.Server, error) {
 	server, err := wish.NewServer(
 		wish.WithAddress(":2222"),
 		wish.WithHostKeyPath(".ssh/hang_host_key"),
 		wish.WithPublicKeyAuth(keyAuthHandler),
 		wish.WithMiddleware(
-			bubbletea.Middleware(handler),
+			cleanupMiddleware(bubbletea.Middleware(handler)),
 			activeterm.Middleware(),
 			logging.Middleware(),
 		),
@@ -29,7 +29,21 @@ func New(handler bubbletea.Handler) (*ssh.Server, error) {
 }
 
 func keyAuthHandler(ctx ssh.Context, key ssh.PublicKey) bool {
-	// use 'key' in the future to persist player data in db
-	ctx.SetValue(data.PlayerKey, player.NewPlayer())
+	ctx.SetValue(data.PlayerKey, entity.NewPlayer(""))
 	return true
+}
+
+func cleanupMiddleware(next wish.Middleware) wish.Middleware {
+	return func(handler ssh.Handler) ssh.Handler {
+		return func(sess ssh.Session) {
+			ctx := sess.Context()
+			p := ctx.Value(data.PlayerKey).(*entity.Player)
+			defer func() {
+				if w, ok := ctx.Value("world").(*world.World); ok {
+					w.RemovePlayer(p.ID)
+				}
+			}()
+			next(handler)(sess)
+		}
+	}
 }
